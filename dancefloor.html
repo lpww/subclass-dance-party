@@ -6,11 +6,21 @@
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/lionDancer.js"></script>
+    <script src="src/corgiDancer.js"></script>
+    <script src="src/pugDancer.js"></script>
+    <script src="src/rotateDanceFloor.js"></script>
+    <link rel="stylesheet" href="animate.css/animate.min.css">
   </head>
   <body>
     <div class="topbar">
-      <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
+      <span class="title">object oriented dance party</span>
+      <a href="#" class="rotateDanceFloor" onclick="rotateDanceFloor()">change location</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeBlinkyDancer">add a blinky!</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeLionDancer">add a lion!</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakeCorgiDancer">add a corgi!</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="MakePugDancer">add a pug!</a>
+    </div>
     <script src="src/init.js"></script>
   </body>
 </html>

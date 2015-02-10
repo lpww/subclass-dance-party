@@ -4,6 +4,7 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-size: 100% 100%;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -20,8 +21,15 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
+.blinky{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+
+.lion{
+  width: 256px;
+  height: 256px;
+  position:absolute;
+  background-image: url('img/lion.png');
 }
