@@ -1,6 +1,19 @@
 var MakeBlinkyDancer = function(top, left, timeBetweenSteps){
   MakeDancer.call(this, top, left, timeBetweenSteps);
   this.$node.addClass('blinky bounce');
+
+  // border-radius: 10px;)
+
+  var styleSettings = {
+    border: '10px solid green'
+  };
+  $('.blinky').mouseover(function(){
+    $(this).css(styleSettings);
+  });
+  // this.$node.css(styleSettings);
+  // this.$node.mouseover(this.css(styleSettings))
+  // this.$node.mouseover(this.css({border: '10px solid green'}));
+
   // we plan to overwrite the step function below, but we still want the superclass step behavior to work,
   // so we must keep a copy of the old version of this function
 };

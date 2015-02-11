@@ -1,35 +1,49 @@
-body, html{
-  height:100%;
+body, html {
+  height: 100%;
 }
-body{
+body {
   margin: 0px;
-  background-color:#444;
+  background-image: url('img/machu.jpg');
   background-size: 100% 100%;
   font-size: 18px;
 }
-body, a:link, a:visited, a:active{
+body, a:link, a:visited, a:active {
   color: lightblue;
 }
-.title, .addDancerButton{
-  padding:5px 12px;
-  float:right;
+.title, .addDancerButton {
+  padding: 5px 12px;
+  float: right;
 }
-.topbar{
+.topbar {
   height:32px;
   background-color: #555;
 }
-.title{
+.title {
   background-color: #777;
 }
-.blinky{
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
+.blinky {
+  border: 10px solid red;
+  border-radius: 10px;
+  position: absolute;
 }
 
-.lion{
+.lion {
   width: 256px;
   height: 256px;
-  position:absolute;
+  position: absolute;
   background-image: url('img/lion.png');
+}
+
+.doge {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background-image: url('img/doge.png');
+}
+
+.pug {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  background-image: url('img/pug.png');
 }
